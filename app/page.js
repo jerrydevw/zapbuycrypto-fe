@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Footer from "@/app/Footer";
 
 export default function Home() {
   return (
@@ -85,6 +86,7 @@ export default function Home() {
               Backoffice Access
             </a>
           </div>
+          <Footer/>
         </footer>
       </div>
   );
